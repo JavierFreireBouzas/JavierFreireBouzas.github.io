@@ -7,28 +7,64 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .bg-1 {
+            background-color: #1e92c1; /* Green */
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #092c3b; /* Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        </style>
     </head>
 
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
             <a class="navbar-brand" href="#">JavierFreireBouzas</a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#aboutme">About me</a></li>
+                </ul>   
             </div>
         </div>
     </nav>
 
 
     <body>
-        <div class="container-fluid text-center">
-            <h2>Alfredo Javier Freire Bouzas</h2>
+        <div class="container-fluid bg-1 text-center">
+            <h2><b>Alfredo Javier Freire Bouzas</b></h2>
             <img src="img/javiFreire.jpg" class="img-circle" alt="Alfredo Javier Freire Bouzas' profile photo" width="200" height="200">
             <h4>Software Engineering Student at University of A Coruña (Spain).</h4>
         </div>
+        <div id="aboutme" class="container-fluid text-center">
+            <h3><b>About me</b></h3>
+            <p>Software Engineering student at University of A Coruña, in the last course of the degree. After finishing his studies at the secondary 
+                school and thinking a lot, he decided to start a degree on Computer Science at University of A Coruña in order to take advantage of the
+                skills he had learned in different subjects of the school. At the third course of the degree, he decides to take the specialization of 
+                Software Engineering because it was the one that he liked the most.
+            </p>
+        </div>
 
     </body>
+    <footer>
+        <div class="container-fluid bg-2 text-center">
+            <p>Alfredo Javier Freire Bouzas</p>
+        </div>
+    </footer>
 </html> 
